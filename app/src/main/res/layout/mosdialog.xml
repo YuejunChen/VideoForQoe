@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="请为此次观影打分\n1: 很差 2: 不好 3: 一般 4: 较好 5: 完美"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/ratingbar"
+        android:layout_centerHorizontal="true"
+        android:textSize="22dp"/>
+
+    <com.lx.ratingbarlib.MyRatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isIndicator="false"
+        app:progressColor="@color/star_color"
+        app:rating="5"
+        app:space="5dp"
+        app:starDrawable="@drawable/ic_star_border"
+        app:starHeight="40dp"
+        app:starWidth="40dp"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></com.lx.ratingbarlib.MyRatingBar>
+
+</RelativeLayout>

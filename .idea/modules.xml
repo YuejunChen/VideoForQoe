@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QoeDemo.iml" filepath="$PROJECT_DIR$/QoeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qoe/qoe.iml" filepath="$PROJECT_DIR$/qoe/qoe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratingbarlib/ratingbarlib.iml" filepath="$PROJECT_DIR$/ratingbarlib/ratingbarlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ratingbarlibrary/ratingbarlibrary.iml" filepath="$PROJECT_DIR$/ratingbarlibrary/ratingbarlibrary.iml" />
+    </modules>
+  </component>
+</project>
